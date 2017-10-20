@@ -173,10 +173,6 @@ function main {
 
     check_all_pods_communicate;
 
-    # force_drop_node;
-
-    # check_ipam_deallocated;
-
     teardown_kubernetes_cluster;
     
     end_suite;
