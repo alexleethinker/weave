@@ -93,9 +93,10 @@ Next build in CircleCI will detect that there is no template for this version of
 Subsequent builds will then simply re-use the template.
 
 ## Running the tests on a cloud provider
+
 Running the tests against a remote provider instead of local vagrant VMs is a little more involved, and reproduces the environment used for CI. It is recommended that you use the build VM to coordinate the build phase.
 
-1. Create the build VM and log in
+1. Create the build VM in the repository root and log in
     
     ```
     ➤ vagrant up
